@@ -1,0 +1,46 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* your custom CSS here */
+body {
+    background: rgb(14, 165, 233);
+    background: linear-gradient(0deg, rgba(14, 165, 233, 0.15028018043154767) 0%, rgba(215, 233, 241, 0.05504208519345233) 100%);
+}
+
+.blue-stripes-background {
+    --stripes-color: rgba(14, 165, 233, 0.4);
+    background-image: linear-gradient(45deg, var(--stripes-color) 12.5%, transparent 12.5%, transparent 50%, var(--stripes-color) 50%, var(--stripes-color) 62.5%, transparent 62.5%, transparent 100%);
+    background-size: 5.66px 5.66px;
+}
+
+.yellow-stripes-background {
+    --stripes-color: rgba(233, 196, 14, 0.85);
+    background-image: linear-gradient(45deg, var(--stripes-color) 12.5%, transparent 12.5%, transparent 50%, var(--stripes-color) 50%, var(--stripes-color) 62.5%, transparent 62.5%, transparent 100%);
+    background-size: 5.66px 5.66px;
+}
+
+h1 {
+    color: white;
+    width: fit-content;
+}
+
+.bg-light-blue {
+    background-color: #0EA5E9;
+}
+
+.text-light-blue {
+    color: #0EA5E9;
+}
+
+.bg-yellow {
+    background-color: rgba(233, 196, 14, 0.85);
+}
+
+.bg-yellow-50 {
+    background-color: rgba(233, 196, 14, 0.5);
+}
+
+.text-gold {
+    color: rgba(112, 93, 0, 1);
+}

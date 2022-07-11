@@ -1,0 +1,11 @@
+{
+  "title": "Go AlpineJS TailwindCSS Sample",
+  "backendName": "Backend",
+  "backendLibName": "Fiber",
+  "backendLibUrl": "https://gofiber.io",
+  "frontendName": "Frontend",
+  "frontendLib1Name": "TailwindCSS",
+  "frontendLib1Url": "https://tailwindcss.com",
+  "frontendLib2Name": "AlpineJS",
+  "frontendLib2Url": "https://alpinejs.dev"
+}
